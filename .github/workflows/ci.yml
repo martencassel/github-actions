@@ -12,7 +12,7 @@ jobs:
     uses: theforeman/actions/.github/workflows/rubocop.yml@v1
     with:
       ruby: 3.0
-      additional_packages: 
-        - 'libkrb5-dev'
-        - 'libldap-dev' 
-        - 'libsasl2-dev'
+      additional_packages: |
+        libkrb5-dev
+        libldap-dev
+        libsasl2-dev
