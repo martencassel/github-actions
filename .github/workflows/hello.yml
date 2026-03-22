@@ -1,0 +1,19 @@
+name: Hello World!
+
+on: 
+  workflow_dispatch
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello
+        run: echo "Hello"
+
+  say-hi:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hi
+        run: echo 'Hi world'
